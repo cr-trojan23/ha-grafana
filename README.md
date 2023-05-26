@@ -74,6 +74,8 @@ You can customize the deployment by modifying the CloudFormation template:
 - Change the CPU and memory settings for the Grafana task definition to match the desired resource allocation.
 - Update the desired count of Grafana containers in the ECS service for scalability.
 
+## Infrastructure Diagram
+![INFRA](https://raw.githubusercontent.com/cr-trojan23/ha-grafana/main/ha-grafana.png)
 ---
 
 # Highly Available Grafana Deployment with Docker and Nginx
